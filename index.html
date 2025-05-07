@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lam Ming Yiu - Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <style>
+        body { padding-top: 72px; }
+        section { padding: 4rem 0; }
+        .nav-link { transition: color 0.3s ease; }
+        .skill-card { transition: transform 0.3s ease; }
+        .skill-card:hover { transform: translateY(-5px); }
+        .social-icon { width: 40px; height: 40px; }
+    </style>
+</head>
+<body data-bs-spy="scroll" data-bs-target="#mainNav">
+    <!-- Navigation -->
+    <nav id="mainNav" class="navbar navbar-expand-lg navbar-light bg-white fixed-top border-bottom">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#">BenLam</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#resume">Resume</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#works">Works</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="bg-light">
+        <div class="container">
+            <div id="introCarousel" class="carousel slide mb-4" data-bs-ride="carousel">
+                <div class="carousel-inner rounded-3">
+                    <div class="carousel-item active">
+                        <img src="image/hero6.png" class="d-block w-100" alt="Hero 1">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="image/hero5.png" class="d-block w-100" alt="Hero 2">
+                    </div>
+                </div>
+            </div>
+            <div class="row align-items-center">
+                <div class="col-lg-4 text-center mb-4 mb-lg-0">
+                    <img src="image/profile.png" alt="Profile" class="img-fluid rounded-circle shadow">
+                </div>
+                <div class="col-lg-8">
+                    <h1 class="display-5 fw-bold">Lam Ming Yiu </h1>
+                    <p class="lead">About Me</p>
+                    <p class="text-muted">I am 19 years old and studying HKU SPACE Year 1 I usually like to listen to music and study fashion. I have a lot of different work experience, including document processing, catering industry, store management.At the same time, I also know how to use tools such as Photoshop and After Effect</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Resume Section -->
+    <section id="resume">
+        <div class="container">
+            <h2 class="text-center mb-5">Resume</h2>
+            <div class="row g-4">
+                <!-- Education -->
+                <div class="col-md-6">
+                    <div class="card h-100 shadow-sm">
+                        <div class="card-body">
+                            <h3 class="card-title mb-4"><i class="bi bi-mortarboard me-2"></i>Education</h3>
+                            <div class="mb-4">
+                                <h5>HKU SPACE</h5>
+                                <p class="text-muted mb-1">Higher Diploma in New Media and Communication (Year1)</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Experience -->
+                <div class="col-md-6">
+                    <div class="card h-100 shadow-sm">
+                        <div class="card-body">
+                            <h3 class="card-title mb-4"><i class="bi bi-briefcase me-2"></i>Experience</h3>
+                            <div class="mb-4">
+                                <div class="d-flex justify-content-between">
+                                    <h5>Job Position</h5>
+                                    <small class="text-muted">2024 - Present</small>
+                                </div>
+                                <p class="text-muted mb-1">Allance Medical Group - Clerk</p>
+                                <p class="text-muted mb-1">Clement Shield Group - Security Guard</p>
+                                <p class="text-muted mb-1">Circle K - Shop Assistant</p>
+                                <p class="text-muted mb-1">Fairwood - Lobby Waiter</p>
+                                <ul class="list-unstyled">
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="bg-light">
+        <div class="container">
+            <h2 class="text-center mb-5">Skills</h2>
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col">
+                    <div class="card h-100 skill-card shadow-sm">
+                        <div class="card-body text-center">
+                            <i class="bi bi-chat-dots fs-1 text-primary mb-3"></i>
+                            <h5 class="card-title">Communication</h5>
+                            <ul class="list-unstyled">
+                                <li>Cantonese Speaking</li>
+                                <li>Putonghua Speaking</li>
+                                <li>Englsih Speaking</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                           <!-- Technical Skills -->
+            <div class="col">
+                <div class="card h-100 skill-card shadow-sm">
+                    <div class="card-body text-center">
+                        <i class="bi bi-code-square fs-1 text-primary mb-3"></i>
+                        <h5 class="card-title">Technical</h5>
+                        <ul class="list-unstyled">
+                            <li>HTML/CSS</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+                             <!-- Design Skills -->
+            <div class="col">
+                <div class="card h-100 skill-card shadow-sm">
+                    <div class="card-body text-center">
+                        <i class="bi bi-palette fs-1 text-primary mb-3"></i>
+                        <h5 class="card-title">Design</h5>
+                        <ul class="list-unstyled">
+                            <li>After Effect</li>
+                            <li>Photoshop</li>
+                            <li>Audition</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Previous Works -->
+    <section id="works">
+        <div class="container">
+            <h2 class="text-center mb-5">Previous Works</h2>
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+                <div class="col">
+                    <div class="card h-100 shadow-sm">
+                        <img src="image/4.JPG" class="card-img-top" alt="Work 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Hong Kong Clock Tower</h5>
+                        </div>
+                    </div>
+                </div>
+         <div class="col">
+                <div class="card h-100 shadow-sm">
+                    <img src="image/1.jpg" class="card-img-top" alt="Work 1">
+                    <div class="card-body">
+                            <h5 class="card-title">Hong Kong K11 Desgin</h5>
+                        </div>
+                      </div>
+                 </div>
+         <div class="col">
+                  <div class="card h-100 shadow-sm">
+                        <img src="image/3.jpg" class="card-img-top" alt="Work 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Victoria Harbour</h5>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="bg-light">
+        <div class="container text-center">
+            <h2 class="mb-5">Connect With Me</h2>
+            <div class="d-flex justify-content-center gap-3">
+                <a href="#" class="social-icon text-dark">
+                    <i class="bi bi-instagram fs-3"></i>
+                </a>
+                <a href="#" class="social-icon text-dark">
+                    <i class="bi bi-whatsapp fs-3"></i>
+                </a>
+                <a href="#" class="social-icon text-dark">
+                    <i class="bi bi-facebook fs-3"></i>
+                </a>
+                <a href="#" class="social-icon">
+                    <img src="image/wechat-icon.svg" alt="WeChat" class="img-fluid">
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
